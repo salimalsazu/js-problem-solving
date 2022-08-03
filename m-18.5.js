@@ -111,3 +111,25 @@ console.log(aunty);
 
 aunty.pop();
 console.log(aunty);
+
+
+
+//// কিভাবে index দিয়ে কোন একটা array এর মধ্যে উপাদান এর মান খুঁজে বের করতে পারো ///
+
+var taka = [5, 10, 20, 50, 100, 200, 500, 1000];
+
+var money = taka[4];
+
+console.log(money);
+
+
+///fint out the array position
+
+var taka = [5, 10, 20, 50, 100, 200, 500, 1000];
+
+var money = taka.indexOf(100);
+
+console.log(money);
+
+
+
