@@ -64,8 +64,9 @@ for (var i = 581; i <= 623; i += 2) {
 // Run a loop from 30 to 86. this loop will stop if the values get higher than 44//
 
 for (var i = 30; i < 86; i++) {
-    if (i > 44)
+    if (i > 44) {
         break;
+    }
     console.log(i);
 }
 
@@ -154,3 +155,26 @@ while (salimAlSazu < mobileUse.length) {
     console.log(mobileUse);
     mobileUse++;
 }
+
+
+
+
+///// তোমার যত বই আছে সেগুলার দাম নিয়ে একটা array লিখে ফেলো। যে বই গুলোর দাম ২০০ টাকার উপরে সেগুলাকে স্কিপ করবে। অর্থাৎ সেগুলাকে আউটপুট হিসেবে দেখাবে না। বাকিদের কে আউটপুট হিসেবে দেখাবে। দেখো করতে পারো কিনা।////
+
+var booksPrice = [120, 180, 200, 210, 250, 140, 100]
+
+for (i = 0; i < booksPrice.length; i++) {
+    var price = booksPrice[i];
+    if (price >= 200) {
+        continue;
+    }
+    console.log(price);
+}
+
+
+/////////Salting Number ///////
+
+var numbers = [10, 12, 14, 8, 6, 3, 2, 20, 22, 25, 1, 4]
+
+numbers.sort((b, a) => b - a);
+console.log(numbers);
