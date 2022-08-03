@@ -165,7 +165,7 @@ var booksPrice = [120, 180, 200, 210, 250, 140, 100]
 
 for (i = 0; i < booksPrice.length; i++) {
     var price = booksPrice[i];
-    if (price >= 200) {
+    if (price > 200) {
         continue;
     }
     console.log(price);
