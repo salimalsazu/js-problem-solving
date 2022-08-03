@@ -133,3 +133,24 @@ console.log(money);
 
 
 
+
+// কিভাবে কোন একটা index পজিশন এ array এর উপাদান এর মান চেইঞ্জ করতে পারবে ///
+
+var taka = [5, 10, 20, 50, 100, 200, 500, 1000];
+
+taka[4] = 20;
+
+console.log(taka);
+
+
+
+// তুমি এতদিন পর্যন্ত যে যে মডেলের মোবাইল ফোন ইউজ করেছো সেগুলার নাম দিয়ে একটা array বানাও। তারপর একটা while লুপ দিয়ে সেই array এর উপাদান গুলা একটা একটা করে আউটপুট হিসেবে দেখাও 
+
+var mobileUse = ['Nokia', 'Semeans', 'Samasung', 'MI', 'Iphone', 'pixel'];
+
+var salimAlSazu = 0;
+
+while (salimAlSazu < mobileUse.length) {
+    console.log(mobileUse);
+    mobileUse++;
+}
