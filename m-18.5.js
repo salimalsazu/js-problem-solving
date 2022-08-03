@@ -94,3 +94,20 @@ console.log(players);
 
 players.shift();
 console.log(players);
+
+
+///কোন একটা Array এর মধ্যে লাস্ট উপাদান হিসেবে কোন উপাদান হিসেবে যোগ করতে চাইলে কিভাৱে যোগ করবে। আবার Array থেকে শেষের উপাদান টা বের করে দিতে চাইলে কিভাবে বের করে দিবে ///
+
+
+var aunty = ['Tania Aunty', 'Samia Aunty', 'Fariha Aunty'];
+
+/// Sumaiya Aunty unar Maey K amar shatey kotha boltey disey Tai Add korlam
+
+aunty.push("Sumaiya Aunty");
+
+console.log(aunty);
+
+/// Amar result kharap how mishtey na korsey tai remove korlam
+
+aunty.pop();
+console.log(aunty);
