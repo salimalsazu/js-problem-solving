@@ -139,3 +139,33 @@ console.log(item(items));
 // একদম ফাংশন এর নাম হুবহু centimeterToMeter নাম দি য়ে একটা ফাংশন
 // লি খবে । এই ফাংশনে ইনপুট হি সাবে কে উ সে ন্টি মি টার দি বে আর সে ই সে ন্টি মি টার
 // কে মি টার এ কনভার্ট করে রে জাল্ট রি টার্ন করবে ।
+
+function centimeterToMeter(centimeter) {
+    const meter = 100;
+    const centeMeter = centimeter / meter;
+    return centeMeter;
+}
+
+let value = 230;
+console.log(centimeterToMeter(value));
+
+
+
+// সিম্পল একটা ফাংশন লিখতে হবে । যেটার নাম হবে feetToInch এবং এই ফাংশন
+// ইনপুট হিসেবে ন বে feet আর রিটার্ন করবে inch । অর্থাৎ এই ফাংশনকে ক োন
+// একটা ফিট বলে দিলে সে র টার্ন হিস বে বলে দিবে কত ইঞ্চি হয়।
+
+function feetToInch(feet) {
+    const inch = 12;
+    const newfeet = feet * inch;
+    return newfeet;
+}
+const valueFeet = 12;
+
+console.log(feetToInch(valueFeet));
+
+
+// একটা অবজে ক্ট ডি ক্লে য়ার করবে । সে টাতে তি নটা প্রপার্টি থাকবে । এবং ক োন একটা প্র োপার্টি
+// এর মান চে ইঞ্জ করবা।
+
+
