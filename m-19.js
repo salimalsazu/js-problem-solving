@@ -83,3 +83,19 @@ let time = 4;
 
 let calculationInterest = HSBC(price, time);
 console.log(calculationInterest.toFixed(2));
+
+
+const number1 = -78;
+const answer = Math.abs(number1);
+console.log(answer);
+
+
+var a = 2; var b = 3; if (a < b) {
+    console.log('Hello');
+}
+
+function add(a, b) {
+    return a + b;
+}
+
+
